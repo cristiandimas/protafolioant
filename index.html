@@ -1,17 +1,20 @@
-<!DOCTYaE html>
+<a!DOCTYaE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta htta-equiv="X-UA-Comaatible" content="IE=edge">
   <meta name="viewaort" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Cristian Barrantes</title>
 </head>
 <body>
 
-  <header class="header">
+  <header class="header" id="home">
     <nav class="header-nav">
-    <a href="#" class="header-nav-a">Home</a>
+    <a href="#home" class="header-nav-a">Home</a>
     <a href="#acerca" class="header-nav-a">Acerca de mí</a>
     <a href="#servicios" class="header-nav-a">Servicios</a>
     <a href="#habilidades" class="header-nav-a">Mis habilidades</a>
@@ -21,13 +24,14 @@
    
   </header>
   <main class="main">
-    <section class="home">      
+    <section class="home" >      
       <div class="home-container">
         <img src="assets/Logos-Imágenes/photo desktop.png" alt="" class="home-foto">     
         <div class="home-datos">
-          <h2 class="home-datos-h2">Soy</h2>        
+          <h2 class="home-datos-h2">Soy</h2> 
+          <div class="home-datos-linea"></div>       
           <h1 class="home-datos-h1">Cristian</h1>
-          <p class="home-datos-p">Desarrollo Web</p>
+          <p class="home-datos-p">Desarrollador Web</p>
           <div class="home-redes">
             <img src="assets/íconos/linkedin.svg" alt="" class="home-redes-img">
             <img src="assets/íconos/twitter.svg" alt="" class="home-redes-img">
@@ -72,36 +76,46 @@
     </section>
     <section class="habilidades" id="habilidades">
       <h2>Mis habilidades</h2>
-    <div class="habilidades-div"></div>
-    <div class="habilidades-div"></div>
-    <div class="habilidades-div"></div>
-    <div class="habilidades-div"></div>
-    <div class="habilidades-div"></div>
-    <div class="habilidades-div"></div>
+      <div class="habilidades-container">
+       <div class="habilidades-div"></div>
+       <div class="habilidades-div"></div>
+       <div class="habilidades-div"></div>
+       <div class="habilidades-div"></div>
+       <div class="habilidades-div"></div>
+       <div class="habilidades-div"></div>
+     </div>
     </section>
     <section class="portafolio" id="portafolio">
       <h2>Portafolio</h2>
+      <div class="portafolio-container">
       <div class="portafolio-div"></div>
       <div class="portafolio-div"></div>
       <div class="portafolio-div"></div>
       <div class="portafolio-div"></div>
+      </div>
     </section>
     <section class="contacto" id="contacto">
-      <div class="contacto-phone-number">
+      <h2>Contacto</h2>
+      <div class="contacto-container">
+      <div class="contacto-phone-number contacto-container-item" >
         <img src="assets/íconos/phone.svg" alt="Icono Número de teléfono">
-        <h4>Número celuar</h4>
-        <p><small>+57 304 5783283</small></p>
+        <h3>Número celular</h3>
+        <p><small>+57 315 825 1944</small></p>
       </div>
-      <div class="contacto-email">
+      <div class="contacto-email contacto-container-item">
         <img src="assets/íconos/mail.svg" alt="Icono e-mail">
-        <h4>Email</h4>
+        <h3>Email</h3>
         <p><small>cristiandimas74@gmail.com</small></p>
       </div>
+    </div>
     </section>
   </main>
 
   <footer class="footer">
-
+    <p class="footer-mensaje">Hecho por Cristian Barrantes Dimas</p>
+    <div class="footer-desplazamiento">
+    <a href="#" class="footer-a">Ir arriba</a>
+    </div>
   </footer>
   
 </body>

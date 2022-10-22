@@ -10,6 +10,7 @@ html{
 body{  
   margin: 0 5%;
   font-size: 18px;
+  font-family: Montserrat;
   font-weight: 600;
   color: #FFFFFF;
   background-color: #03082b;
@@ -25,7 +26,7 @@ body{
 
 .header-nav{  
   margin-top: 15px;
-  width: 50vw;
+  width: 60vw;
   display: flex;
   justify-content: space-around;
 }
@@ -35,7 +36,7 @@ body{
   color: #FFFFFF;
 }
 
-.header-nav-a:active{
+.header-nav-a:hover{
   color: #34B0BE;
 }
 
@@ -48,8 +49,7 @@ body{
   justify-content: center;
   position: relative;  
   max-width: 100%;
-  max-height: 50vh; 
-  border: solid;
+  max-height: 50vh;  
   
 }
 .home-foto{  
@@ -62,23 +62,31 @@ body{
   border-radius: 50%;
   max-width: 40px;
   max-height: 40px;
-  padding: 1px;
+  padding: 3px;
 }
 .home-datos{  
   text-align: left;
   position: absolute;
   top: .1em;
-  left: .5em;
-  border: solid;
-  line-height: 0.5;  
+  left: 1.5em;  
+  line-height: 0.3;  
+}
+.home-datos-linea{
+  background-color: #ffffff;
+  width: 80%;
+  height: 4px;
+  border-radius: 2px;
+  
 }
 h1{
   font-size: 80px;
+  font-weight: 600;
 }
 
 h2{
   color: #34b0be;
   font-size: 50px;
+  font-weight: 600;
 }
 
 .experiencia{     
@@ -115,10 +123,9 @@ h2{
   justify-content: space-around;
 }
 
-.servicios-container-div{ 
- 
+.servicios-container-div{  
   background-color: #ffffff; 
-  width: 25%;  
+  width: 30%;  
   padding: 50px;
   border-radius: 5px;
 }
@@ -126,10 +133,53 @@ h3{
   color: black;
 }
 
-.servicios-descripcion{
+.servicios-descripcion , .contacto-container-item{
   color: #d1ceca;
 }
 
+.habilidades-container, .contacto-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.habilidades-div{  
+  border: solid;
+  width: 20%;
+  margin: 10px 10px;
+}
+
+.portafolio-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portafolio-div{  
+  border: solid;
+  width: 20%;
+  margin: 10px 10px;
+}
+
+.contacto-container-item{  
+  background-color: #ffffff; 
+  width: 40%;  
+  padding: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+footer{
+  color: #34b0be;
+}
+
+.footer-desplazamiento, footer a{
+  text-decoration: none;
+  color: #34b0be;
+  text-align: right;
+  transition: 1000ms;
+}
 
 
 
