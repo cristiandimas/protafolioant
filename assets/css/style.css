@@ -1,0 +1,138 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+body{  
+  margin: 0 5%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #03082b;
+  text-align: center;
+  
+}
+
+.header{
+  display: flex; 
+  justify-content: flex-end;
+   
+}
+
+.header-nav{  
+  margin-top: 15px;
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-nav-a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header-nav-a:active{
+  color: #34B0BE;
+}
+
+.main{
+  margin: 0 5%;
+}
+
+.home{  
+  display: flex;
+  justify-content: center;
+  position: relative;  
+  max-width: 100%;
+  max-height: 50vh; 
+  border: solid;
+  
+}
+.home-foto{  
+  max-height: 40vh;
+  
+}
+
+.home-redes-img{
+  background-color: #FFFFFF; 
+  border-radius: 50%;
+  max-width: 40px;
+  max-height: 40px;
+  padding: 1px;
+}
+.home-datos{  
+  text-align: left;
+  position: absolute;
+  top: .1em;
+  left: .5em;
+  border: solid;
+  line-height: 0.5;  
+}
+h1{
+  font-size: 80px;
+}
+
+h2{
+  color: #34b0be;
+  font-size: 50px;
+}
+
+.experiencia{     
+  display: flex;
+  justify-content: center;
+}
+.experiencia-div{
+  background-color: #4b4e63; 
+  
+  width: 80vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px
+  
+}
+.experiencia-img{
+  background-color: #d1ceca; 
+  padding: 1%; 
+  width: 20%;
+  height: 70%;
+  border-radius: 5px;
+  
+}
+
+.acerca{
+  max-width: 80vw;
+}
+
+.servicios-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.servicios-container-div{ 
+ 
+  background-color: #ffffff; 
+  width: 25%;  
+  padding: 50px;
+  border-radius: 5px;
+}
+h3{
+  color: black;
+}
+
+.servicios-descripcion{
+  color: #d1ceca;
+}
+
+
+
+
+
+
+
