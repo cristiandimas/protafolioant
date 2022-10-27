@@ -193,7 +193,7 @@ footer{
 }
 
 @media (width: 375px) {
-  .header-nav{
+  .header{
     display: none;
   }
   
