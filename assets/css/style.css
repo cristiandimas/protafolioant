@@ -59,9 +59,6 @@ body{
   max-height: auto;   
 }
 
-.home-container{
-
-}
 .home-foto{  
   max-height: 40vh;
   
@@ -192,12 +189,7 @@ footer{
   transition: 1000ms;
 }
 
-@media (width: 375px) {
-  .header{
-    display: none;
-  }
-  
-}
+
 
 
 
